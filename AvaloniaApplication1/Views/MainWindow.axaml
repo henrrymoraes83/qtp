@@ -17,7 +17,7 @@
 
     <DockPanel LastChildFill="True"
                Name="ContentWrapper">
-<Button Content="Teste" Command="{Binding Click_New}"/>
+<Button Content="Add dock" Command="{Binding Click_New}"/>
         <DockPanel Background="{DynamicResource DockThemeBackgroundBrush}">
             <DockControl Layout="{Binding Layout}" Margin="0,0,1,0" BorderBrush="{DynamicResource DockThemeBackgroundBrush}" Background="{DynamicResource DockThemeBackgroundBrush}"  />
         </DockPanel>
