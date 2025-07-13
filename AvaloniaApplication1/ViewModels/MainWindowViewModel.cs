@@ -30,6 +30,9 @@ public partial class MainWindowViewModel : ViewModelBase
             .OfType<DocumentDock>()
             .FirstOrDefault();
 
+            Click_New();
+            Click_New();
+
     }
     
     public async Task Click_New()
